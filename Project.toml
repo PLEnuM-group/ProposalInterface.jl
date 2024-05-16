@@ -1,7 +1,14 @@
 name = "ProposalInterface"
 uuid = "c0cb64ec-bfa4-4a12-9422-e219a9596072"
 authors = ["Christian Haack <chr.hck@gmail.com>"]
-version = "1.0.0-DEV"
+version = "1.0.0"
+
+[deps]
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+PhysicsTools = "aacfb283-0df6-49c4-85a4-270b72c3b0a9"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 [compat]
 julia = "1.10"
