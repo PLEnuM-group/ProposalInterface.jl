@@ -390,10 +390,10 @@ uuid = "5ad8b20f-a522-5ce9-bfc9-ddf1d5bda6ab"
 version = "0.2.3"
 
 [[deps.PhysicsTools]]
-deps = ["CondaPkg", "DataStructures", "Distributions", "FastGaussQuadrature", "LinearAlgebra", "Logging", "PhysicalConstants", "Pkg", "Polynomials", "PreferenceTools", "PythonCall", "Random", "Reexport", "Roots", "StaticArrays", "Unitful"]
-git-tree-sha1 = "3293c25803d0e53855b7aa868183d733c8b0ac71"
+deps = ["CondaPkg", "DataStructures", "Distributions", "FastGaussQuadrature", "LinearAlgebra", "Logging", "PhysicalConstants", "Pkg", "Polynomials", "PreferenceTools", "Random", "Reexport", "Roots", "StaticArrays", "Unitful"]
+git-tree-sha1 = "db571198bcbf6fdb9008a04abc3082594b6d283f"
 uuid = "aacfb283-0df6-49c4-85a4-270b72c3b0a9"
-version = "0.6.0"
+version = "0.7.0"
 
 [[deps.Pidfile]]
 deps = ["FileWatching", "Test"]
