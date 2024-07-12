@@ -1,7 +1,7 @@
 name = "ProposalInterface"
 uuid = "c0cb64ec-bfa4-4a12-9422-e219a9596072"
 authors = ["Christian Haack <chr.hck@gmail.com>"]
-version = "1.1.0"
+version = "1.1.1"
 
 [deps]
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
