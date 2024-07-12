@@ -80,8 +80,9 @@ function make_propagator(ptype::Type{<:ParticleType})
 end
 
 
-function propagate_muon(particle; propagator=nothing, length=0)
+function propagate_muon(particle; propagator=nothing, length=0, seed=0)
 
+    pp.RandomGenerator.get().set_seed(seed)
     position = particle.position
     direction = particle.direction
     length = length > 0 ? length : particle.length
